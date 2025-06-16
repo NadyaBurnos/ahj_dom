@@ -1,0 +1,29 @@
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: repeat(4, 80px);
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .cell {
+    width: 80px;
+    height: 80px;
+    background-color: #e9e9e9;
+    border: 1px solid #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .character {
+    width: 80px;
+    height: 80px;
+  }
